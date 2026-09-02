@@ -1,0 +1,36 @@
+generated: '2026-09-02'
+method: probed
+source: live GET probes of the named /.well-known/ path list on every host in apis.yml
+note: >-
+  Every named path 404s on the only host this company operates
+  (www.atomicainformatics.com, a Squarespace-hosted marketing site). Per the
+  pipeline contract no WellKnown or SecurityTxt pointer is emitted — this file
+  records an absence, and an absence must not be wired as a presence. The
+  Squarespace platform answers /.well-known/security.txt with its own JSON
+  "not found" body and answers every other unknown path with the site's 404
+  page (HTML, correctly served with a 404 status), so none of these are
+  soft-200 false positives.
+hosts:
+- host: www.atomicainformatics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

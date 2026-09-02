@@ -1,7 +1,18 @@
 aid: atomica-informatics
 name: Atomica Informatics
-description: 'Atomica Informatics is a company surfaced via the API Evangelist harvest backlog (source:
-  openehr-coalition) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Atomica Informatics is an independent health-informatics consultancy founded and run by
+  Dr Heather Leslie, specialising in what it calls "little data" design: the modelling of
+  atomic clinical data so that individual data points carry consistent format and reliable
+  meaning across projects, domains and systems instead of being locked into single-purpose
+  silos. The practice delivers openEHR archetype and template authoring, clinical knowledge
+  governance, clinician engagement, and openEHR clinical-modelling training - a two-day
+  introductory course, advanced modelling workshops, and ongoing remote mentoring for
+  in-house modelling teams. Dr Leslie pioneered the openEHR clinical modelling methodology
+  in volunteer roles at the openEHR Foundation from 2006 and co-leads its Clinical Program.
+  Atomica Informatics operates no API of its own; the machine-readable standards its work
+  depends on are published by the openEHR Foundation.
+image: https://static1.squarespace.com/static/5a9bab4675f9eef8f485b10a/t/5aaba2e21ae6cf1e32417039/1521197795190/favicon.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/atomica-informatics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:openehr-coalition
@@ -12,6 +23,15 @@ created: '2026-09-02'
 modified: '2026-09-02'
 tags:
 - Company
+- Health
+- Healthcare
+- Health Informatics
+- Clinical Data
+- openEHR
+- Interoperability
+- Data Modeling
+- Consulting
+- Training
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,3 +41,49 @@ maintainers:
 common:
 - type: Website
   url: https://atomicainformatics.com/
+- type: About
+  url: https://www.atomicainformatics.com/about
+- type: Blog
+  url: https://www.atomicainformatics.com/archetypical
+- type: BlogRSS
+  url: https://www.atomicainformatics.com/archetypical?format=rss
+- type: Contact
+  url: https://www.atomicainformatics.com/contact
+- type: Training
+  url: https://www.atomicainformatics.com/training-options
+- type: DomainSecurity
+  url: security/atomica-informatics-domain-security.yml
+- type: LLMsTxt
+  url: llms/atomica-informatics-llms.txt
+- type: Plans
+  url: plans/atomica-informatics-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/atomica-informatics-rate-limits.yml
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Atomica Informatics is a single-practitioner openEHR clinical-modelling consultancy
+    and training practice run by Dr Heather Leslie on a Squarespace marketing site - it
+    sells workshops, mentoring and data-design advice, not software, so /openapi.json,
+    /graphql and both agent-card paths all return the site's 404 page and there is no
+    developer portal, SDK or GitHub organisation to find.
+  evidence:
+  - url: https://www.atomicainformatics.com/openapi.json
+    status: 404
+  - url: https://www.atomicainformatics.com/graphql
+    status: 404
+  - url: https://www.atomicainformatics.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.atomicainformatics.com/.well-known/api-catalog
+    status: 404
+  - url: https://github.com/atomicainformatics
+    status: 404
+  - url: https://www.atomicainformatics.com/training-options
+    status: 200
+  checked: '2026-09-02'
+x-enrichment:
+  date: '2026-09-02'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1

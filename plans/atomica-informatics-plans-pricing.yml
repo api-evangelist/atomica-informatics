@@ -1,0 +1,28 @@
+generated: '2026-09-02'
+method: searched
+source: https://www.atomicainformatics.com/training-options
+plan_count: 0
+currency: null
+note: >-
+  Atomica Informatics publishes no plans, tiers or prices of any kind. It is a
+  single-practitioner health-informatics consultancy (Dr Heather Leslie) selling
+  openEHR clinical-modelling consulting, workshops and mentoring, and there is no
+  API, no subscription and no metered product to price. The training pages
+  (/training-options, /intro-training, /advanced-modelling, /remote-mentoring)
+  describe each engagement in prose and route to a booking or contact form with
+  no published rate; /bookingau states only "a fraction of the price of
+  face-to-face meetings". This is an honest zero, not an unread page.
+searched:
+- url: https://www.atomicainformatics.com/training-options
+  status: 200
+  finding: service descriptions only, no prices
+- url: https://www.atomicainformatics.com/intro-training
+  status: 200
+  finding: course outline only, no prices
+- url: https://www.atomicainformatics.com/remote-mentoring
+  status: 200
+  finding: engagement description only, no prices
+- url: https://www.atomicainformatics.com/bookingau
+  status: 200
+  finding: scheduling page, no published rate
+plans: []

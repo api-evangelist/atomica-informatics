@@ -1,0 +1,12 @@
+generated: '2026-09-02'
+method: searched
+source: https://www.atomicainformatics.com/
+limit_count: 0
+note: >-
+  No rate limits are documented because there is no API to limit. Contract
+  discovery (STEP 0b) found no REST OpenAPI, no GraphQL endpoint, no MCP server
+  and no agent card on the company's only host; the site is a Squarespace
+  marketing and training presence for a consulting practice. Recorded as an
+  honest zero rather than omitted.
+headers: []
+limits: []

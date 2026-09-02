@@ -1,0 +1,62 @@
+# Atomica Informatics
+
+> Atomica Informatics is an independent health-informatics consultancy founded and run by
+> Dr Heather Leslie (MD, FRACGP, FAIDH, FIAHSI, GAICD), specialising in "little data" design:
+> atomic clinical data modelling, openEHR archetype and template authoring, clinical knowledge
+> governance, and clinician engagement. The practice sells consulting, workshops, training and
+> remote mentoring — it does not publish or operate an API.
+
+Provenance: generated 2026-09-02 by the API Evangelist enrichment pipeline from
+apis.yml plus probed pages on www.atomicainformatics.com. The provider does not
+publish an llms.txt of its own (GET https://www.atomicainformatics.com/llms.txt -> 404).
+
+## What this company does
+
+- Atomic clinical data design so that a data point carries consistent format and reliable meaning
+  across projects, domains and systems rather than being trapped in a single-purpose silo.
+- openEHR archetype and template modelling, reusing published, tried-and-tested data patterns from
+  the openEHR Clinical Knowledge Manager (CKM) in preference to bespoke models.
+- Clinical knowledge governance: review processes, publication lifecycle and the train-the-trainer
+  methodology Dr Leslie developed in her openEHR Foundation roles from 2006 onward.
+- Bridging between non-technical clinicians and software engineers so clinical requirements survive
+  the trip into an implementation.
+
+## API surface
+
+There is none, and this is a deliberate, probed finding rather than an unchecked gap.
+Contract discovery on 2026-09-02 probed the company's only host for a REST OpenAPI
+(/openapi.json, /swagger.json, /api-docs), a GraphQL endpoint (/graphql), an MCP server,
+and an A2A agent card (/.well-known/agent-card.json and the legacy /.well-known/agent.json).
+Every path returned 404. There is no developer portal, no SDK, no package on any public
+registry, no webhook catalog and no GitHub organisation under this name.
+
+- No OpenAPI / AsyncAPI / GraphQL / gRPC / WSDL contract
+- No MCP server, remote or stdio
+- No A2A agent card
+- No SDKs, CLI or embeddable components
+- No published plans, pricing or rate limits
+
+The standards this practice works in are openEHR's, published by the openEHR Foundation,
+not by Atomica Informatics: https://specifications.openehr.org/
+
+## Pages
+
+- Home: https://www.atomicainformatics.com/
+- About / who is Atomica: https://www.atomicainformatics.com/about
+- The digital health challenge: https://www.atomicainformatics.com/about-1
+- The solution: https://www.atomicainformatics.com/solution
+- Training options: https://www.atomicainformatics.com/training-options
+- Introduction to openEHR clinical modelling (2-day course): https://www.atomicainformatics.com/intro-training
+- Advanced clinical modelling workshop: https://www.atomicainformatics.com/advanced-modelling
+- Remote mentoring: https://www.atomicainformatics.com/remote-mentoring
+- Booking: https://www.atomicainformatics.com/bookingau
+- Resources: https://www.atomicainformatics.com/resources
+- Archetypical blog: https://www.atomicainformatics.com/archetypical
+- Blog feed (RSS): https://www.atomicainformatics.com/archetypical?format=rss
+- Contact: https://www.atomicainformatics.com/contact
+
+## Catalog
+
+- APIs.json: https://raw.githubusercontent.com/api-evangelist/atomica-informatics/refs/heads/main/apis.yml
+- Well-known probe record (all paths 404): well-known/atomica-informatics-well-known.yml
+- Domain security probe: security/atomica-informatics-domain-security.yml
