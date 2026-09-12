@@ -1,0 +1,21 @@
+{
+  "repo": "atomica-informatics",
+  "feeds": [
+    {
+      "source": "https://www.atomicainformatics.com/about",
+      "feed_url": "https://www.atomicainformatics.com/about",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.atomicainformatics.com/archetypical",
+      "feed_url": "https://www.atomicainformatics.com/archetypical?format=rss",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-06T19:17:18Z"
+}
