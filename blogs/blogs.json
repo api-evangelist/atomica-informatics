@@ -2,13 +2,6 @@
   "repo": "atomica-informatics",
   "feeds": [
     {
-      "source": "https://www.atomicainformatics.com/about",
-      "feed_url": "https://www.atomicainformatics.com/about",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
       "source": "https://www.atomicainformatics.com/archetypical",
       "feed_url": "https://www.atomicainformatics.com/archetypical?format=rss",
       "title": "",
@@ -21,8 +14,15 @@
       "title": "",
       "saved": 0,
       "method": "feed"
+    },
+    {
+      "source": "https://www.atomicainformatics.com/about",
+      "feed_url": "https://www.atomicainformatics.com/about",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 20,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
